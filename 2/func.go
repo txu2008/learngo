@@ -5,6 +5,7 @@ package main
 // 函数作为参数
 // 没有默认参数和可变参数
 // 可变参数列表， sum(1, 2, 3, 4, 5)
+// 只有值传递
 
 import (
 	"fmt"
@@ -75,6 +76,11 @@ func sum(numbers ...int) int {
 	return s
 }
 
-func swap(a, b int) (int, int) {
+// 指针
+func swap(a, b *int) {
+	*b, *a = *a, *b
+}
+
+func swapAB(a, b int) (int, int) {
 	return b, a
 }

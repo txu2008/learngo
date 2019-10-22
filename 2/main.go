@@ -51,9 +51,15 @@ func main() {
 
 	fmt.Println("1+2+...+5 =", sum(1, 2, 3, 4, 5))
 
+	fmt.Printf("\n2-7 指针\n")
 	a, b := 3, 4
-	a, b = swap(a, b)
+	swap(&a, &b)
 	fmt.Println("a, b after swap is:", a, b)
 
-	fmt.Printf("\n2-7 指针\n")
+	a, b = 3, 4
+	a, b = swapAB(a, b)
+	fmt.Println("a, b after swapAB is:", a, b)
+
+	fmt.Printf("\n2-8 atomic\n")
+	test()
 }
