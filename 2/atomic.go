@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+// go指针不能运算
+
 type atomicInt struct {
 	value int
 	lock  sync.Mutex
