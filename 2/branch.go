@@ -1,3 +1,4 @@
+// 5
 package main
 
 // if 条件后没有括号
