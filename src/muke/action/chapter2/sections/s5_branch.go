@@ -1,5 +1,4 @@
-// 5
-package main
+package sections
 
 // if 条件后没有括号
 // switch 不需要break， 可以直接switch多个条件

@@ -1,5 +1,4 @@
-// 3
-package main
+package sections
 
 import (
 	"fmt"

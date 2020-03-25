@@ -1,5 +1,4 @@
-// 4
-package main
+package sections
 
 // 函数可以返回多个值
 // go:函数式编程

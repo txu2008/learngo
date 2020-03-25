@@ -1,5 +1,4 @@
-// 6
-package main
+package sections
 
 import (
 	"bufio"

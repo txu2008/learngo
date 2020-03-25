@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"math"
+
+	_ "muke/action/chapter2/sections"
 )
 
 func main() {
@@ -23,8 +25,9 @@ func main() {
 	fmt.Println(grade(98))
 
 	fmt.Printf("\n2-5 循环\n")
+	const dataFile = "data/a.txt"
 	forExample()
-	printFile("a.txt")
+	printFile(dataFile)
 	fmt.Println(
 		convertToBin(5),  // 101
 		convertToBin(13), // 1101
