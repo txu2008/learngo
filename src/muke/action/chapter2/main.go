@@ -9,7 +9,7 @@ import (
 
 func main() {
 	fmt.Printf("\n2-1 变量定义\n")
-	defineVariables()
+	sections.defineVariables()
 	fmt.Println(aa, xx, yy, zz)
 
 	fmt.Printf("\n2-2 内建变量类型\n")
